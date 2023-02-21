@@ -1,0 +1,93 @@
+.mainToDoList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    margin-top: 5.625rem;
+  }
+  
+  .progressoDeConlusao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .progressoDeConlusao div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .progressoDeConlusao p {
+    color: var(--blue-100);
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+  
+  .progressos .progressoConcluido {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--purple-100);
+  }
+  
+  .progressoDeConlusao span {
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    padding: 3px 9px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 999px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+  }
+  
+  .progressoConcluido p.textoRoxo {
+    color: var(--purple-100);
+  }
+  
+  .conteudoTarefas {
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+  }
+  
+  .semTarefas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  
+  .semTarefas img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .semTarefas p {
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .destaque {
+    color: var(--gray-300);
+  }
+  
+  @media (max-width: 336px) {
+    .progressoDeConlusao {
+      flex-direction: column;
+      min-height: 5px;
+      height: auto;
+      align-items: center;
+    }
+  
+    .progressoDeConlusao {
+      flex-direction: column;
+      min-height: 5px;
+      height: auto;
+      align-items: center;
+    }
+  }
